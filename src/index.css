@@ -1,4 +1,3 @@
-/* Reset and base styles */
 * {
     margin: 0;
     padding: 0;
@@ -13,14 +12,12 @@ body {
     min-height: 100vh;
 }
 
-/* Container */
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
 }
 
-/* Header styles */
 header {
     text-align: center;
     padding: 50px 0;
@@ -53,7 +50,6 @@ h1 {
     margin-bottom: 30px;
 }
 
-/* Section styles */
 .section {
     background: white;
     margin: 30px 0;
@@ -75,7 +71,6 @@ h1 {
     padding-bottom: 10px;
 }
 
-/* Skills section */
 .skills {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -99,7 +94,6 @@ h1 {
     transform: scale(1.05);
 }
 
-/* Projects section */
 .projects {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -125,7 +119,6 @@ h1 {
     margin-bottom: 10px;
 }
 
-/* Contact section */
 .contact-info {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -148,7 +141,7 @@ h1 {
     transform: scale(1.05);
 }
 
-/* Button styles */
+
 .btn {
     display: inline-block;
     padding: 12px 30px;
@@ -169,7 +162,6 @@ h1 {
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
 
-/* Footer */
 footer {
     text-align: center;
     padding: 30px;
@@ -177,7 +169,7 @@ footer {
     margin-top: 50px;
 }
 
-/* Animations */
+
 .typing-animation {
     animation: typing 3s infinite;
 }
@@ -198,7 +190,7 @@ footer {
     }
 }
 
-/* Responsive design */
+
 @media (max-width: 768px) {
     h1 {
         font-size: 2em;
